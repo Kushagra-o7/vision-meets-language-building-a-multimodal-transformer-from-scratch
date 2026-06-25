@@ -2,9 +2,8 @@
 
 **Seasons of Code · IIT Bombay — "Vision Meets Language: Building a Multimodal Transformer from Scratch"**
 
-This repository contains my implementation of the *VLM from Scratch* mentee handbook,
-Tasks 0 through 4. Everything is built from scratch in PyTorch — no `nn.MultiheadAttention`,
-no `nn.TransformerEncoderLayer`. Every line of code corresponds to a piece of math.
+This repository contains my implementation of the *VLM from Scratch* mentee handbook provided by my mentor,
+Tasks 0 through 4. Everything is built from scratch in PyTorch.
 
 Handbooks: `VLM_Mentee_Handbook_Tasks_0_1_2.pdf`, `VLM_Mentee_Handbook_Tasks_3_4.pdf`.
 
@@ -34,10 +33,6 @@ task4/  cross_attention_toy.ipynb, multimodal.py, training_curve.png, attention_
         samples.txt, writeup.md
         build_toy_notebook.py
 ```
-
-Notebooks are produced by their `build_*.py` script, which constructs the cells and
-executes them (via `nbclient`) so all outputs are embedded.
-
 ## Results achieved
 
 All code is implemented from scratch and verified end-to-end. Headline numbers from
